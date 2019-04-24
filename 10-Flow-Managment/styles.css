@@ -12,20 +12,16 @@ header{
 }
 footer{
     widows: 600px;
-}
-.col-1, .col-2{
-    width: 285px;
-}
-
-.col-1{
-    float: left;
-}
-.col-2{
-    float:right;
-}
-.col-3{
-    width:350px;
-    margin: 0 auto 30px;
-    float: center;
     clear: both;
 }
+.cell{
+    float: left;
+    width: 180px;
+    margin: 30px;
+    margin-left: 0;
+}
+
+.cell:last-of-type{
+    margin-right: 0;
+}
+
