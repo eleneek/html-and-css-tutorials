@@ -1,22 +1,23 @@
-.main{
-    margin-bottom: 15px;
-    border-radius: 5px;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    background-color: rgba(128, 128, 128, 0.26);
-}
-.attr{
+.message{
     position: absolute;
-    background-color: red;
-    border-radius: 24px;
-    border: 1px solid white;
-    text-align: center;
-    min-width: 20px;
-    top: -8px;
-    right: -8px;
-
+    top: 30px;
+    right: 30px;
+    width:300px;
+    height: 150px;
+    padding: 15px 20px;
+    border: solid 1px black;
 }
-.a{
-    color: white;
+.message a {
+    text-decoration: none;
+    color: gray;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.message p{
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+.message span{
+    display: inline-block;
 }
