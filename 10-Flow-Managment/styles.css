@@ -1,27 +1,28 @@
-main header, main div,  footer{
-    height: 150px;
-    margin-bottom: 30px;
-    background-color: cornflowerblue 
-}
 main{
     width: 600px;
     margin: 0 auto;
 }
-header{
-    width: 600px;
-}
-footer{
-    widows: 600px;
+
+.row{
+    width: 100%;
     clear: both;
 }
 .cell{
     float: left;
-    width: 180px;
-    margin: 30px;
-    margin-left: 0;
+    min-height: 150px;
+    margin-bottom: 30px;
+    background-color: blue;
+    margin-right: 30px;
 }
-
 .cell:last-of-type{
     margin-right: 0;
 }
-
+.col-1{
+    width: 180px;
+}
+.col-2{
+    width: 390px;
+}
+.col-3{
+    width: 100%;
+}
