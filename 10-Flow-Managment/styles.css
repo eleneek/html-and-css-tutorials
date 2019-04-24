@@ -1,0 +1,31 @@
+main header, main div,  footer{
+    height: 150px;
+    margin-bottom: 30px;
+    background-color: cornflowerblue 
+}
+main{
+    width: 600px;
+    margin: 0 auto;
+}
+header{
+    width: 600px;
+}
+footer{
+    widows: 600px;
+}
+.col-1, .col-2{
+    width: 285px;
+}
+
+.col-1{
+    float: left;
+}
+.col-2{
+    float:right;
+}
+.col-3{
+    width:350px;
+    margin: 0 auto 30px;
+    float: center;
+    clear: both;
+}
