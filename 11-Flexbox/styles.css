@@ -1,8 +1,12 @@
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 main{
-    width:600px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
 }
 header{
@@ -25,16 +29,12 @@ footer{
     background:gray;
     height: 150px;
 }
-.col-1{
+.col-1, .col-2{
     margin-right: 30px;
 }
-.col-1, .col-2{
+.col-1, .col-2, .col-3{
     flex-grow: 1;
     margin-bottom: 30px;
 }
-.second-row{
-    justify-content: center;
-}
-.col-3{
-    width: 200px;
-}
+
+
