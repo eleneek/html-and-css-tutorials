@@ -32,9 +32,16 @@ footer{
 .col-1, .col-2{
     margin-right: 30px;
 }
-.col-1, .col-2, .col-3{
+.col-1,.col-3{
     flex-grow: 1;
     margin-bottom: 30px;
+}
+.col-2{
+    flex-grow: 2;
+}
+
+.row div:last-child{
+    margin-right: 0;
 }
 
 
