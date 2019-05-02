@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../Tutorial-1/images/Image\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section::after{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #140E0E;
+    opacity: 0.13;
+}
+section::before{
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,1) 0%,rgba(0,0,0,0.81) 37%,rgba(0,0,0,.67) 55%,rgb(0, 0, 0,0)100%);
+    opacity: 0.85;
+}
+section h1{
+    position: relative;
+    font-family: 'Lobster';
+    font-size: 160px;
+    line-height: 250px;
+    color: #FFF;
+    z-index: 1;
+}
