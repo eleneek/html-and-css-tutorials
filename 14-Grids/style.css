@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+section div {
+    background: aqua;
+}
 section{
     width: 600px;
     height: 600px;
@@ -10,29 +13,10 @@ section{
     display: grid;
     grid-gap: 20px;
 }
-
-div{
-    background-color: aqua;
-}
-.col-1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-}
-.col-2{
-    grid-column-start: 2;
-    grid-column-end: 3;
-}
 .header{
-    grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column: 1/4;
 }
-.col-3{
-    width: 50%;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    justify-self: center;
-}
+
 .footer{
-    grid-column-start: 1;
-    grid-column-end: 3;
+  grid-column: 1/4;
 }
