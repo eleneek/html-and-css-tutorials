@@ -3,9 +3,6 @@
     padding: 0;
     margin: 0;
 }
-section div {
-    background: aqua;
-}
 section{
     width: 600px;
     height: 600px;
@@ -13,10 +10,12 @@ section{
     display: grid;
     grid-gap: 20px;
 }
-.header{
-    grid-column: 1/4;
+section div {
+    background: aqua;
 }
-
-.footer{
-  grid-column: 1/4;
+.col-2{
+    grid-column: span 2;
+}
+.col-3{
+    grid-column: span 3;
 }
